@@ -97,8 +97,13 @@ MEDIA QUERIES
 
 @media screen and (max-width: 799px) {
 
+    #main h2 {
+        text-align: left;
+        margin-left: 2.5%;
+    }
     #sidebar {
         clear: both;
         float: left;
+        margin-left: 2.5%;
     }
 }
